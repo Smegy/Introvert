@@ -1,0 +1,63 @@
+{
+  "mod_elements": [
+    {
+      "name": "NuhUh",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nuh_uh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/introvert/procedures/NuhUhProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Whisper",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "whisper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/introvert/procedures/WhisperProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "command",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "introvert",
+    "modName": "Introvert",
+    "version": "1.0.0",
+    "author": "SqimpyGD",
+    "websiteURL": "https://nevergonnagiveyouup",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made with MCreator..",
+    "modElementsPackage": "net.mcreator.introvert"
+  },
+  "mcreatorVersion": 202400342716
+}

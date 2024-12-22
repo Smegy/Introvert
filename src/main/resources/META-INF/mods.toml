@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="introvert"
+version="1.0.0"
+displayName="Introvert"
+displayURL="https://mcreator.net"
+credits="Made with MCreator.."
+authors="SqimpyGD"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.introvert]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
